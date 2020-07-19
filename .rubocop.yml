@@ -1,0 +1,16 @@
+require:
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.7.1
+  NewCops: enable
+  Exclude:
+    - spec/**/*
+    - vendor/bundle/**/*
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
