@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
 require 'simplecov'
-puts 'required simplecov'
 SimpleCov.start do
-  minimum_coverage 0
+  minimum_coverage 80
   enable_coverage :branch
   add_filter 'spec/'
 end

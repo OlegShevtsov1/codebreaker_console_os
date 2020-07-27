@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:olegshevtsov1/my_codebreaker.git
-  revision: 07541d0f0e38bdb5741aaedd80f14b5be55c6060
+  remote: git@github.com:olegshevtsov1/codebreaker_os.git
+  revision: 5a3eec404c62a902d0803ca8cdfe4731f1f6adaf
   branch: develop
   specs:
     codebreaker_os (0.0.1)

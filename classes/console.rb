@@ -42,7 +42,7 @@ class Console
   def process_answer_game(answer)
     case answer
     when /^[1-6]{4}$/
-      return won if game.won?(answer.split('').map(&:to_i))
+      return won if game.won?(check_code(answer))
     when 'hint' then request_of_hint
     else message(:InvalidCommand)
     end
@@ -59,9 +59,8 @@ class Console
 
   def check_code(answer)
     result = game.result(answer)
-
     puts template(result)
-    result
+    answer.split('').map(&:to_i)
   end
 
   def registration
