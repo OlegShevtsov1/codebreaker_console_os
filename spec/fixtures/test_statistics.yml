@@ -1,0 +1,1016 @@
+---
+:winners:
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: boo
+    created_at: !ruby/object:DateTime 2020-07-27 20:23:18.304940000 +03:00
+  difficulty:
+    :name: :hell
+    :attempts: 5
+    :hints: 1
+  secret_number: 3166
+  hints:
+  - '6'
+  hints_used: 0
+  attempts_used: 1
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: jhone
+    created_at: !ruby/object:DateTime 2020-07-27 20:24:03.301234000 +03:00
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: 6552
+  hints:
+  - '5'
+  hints_used: 1
+  attempts_used: 2
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 20:33:20.151389000 +03:00
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '2'
+  hints_used: 0
+  attempts_used: 1
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 20:33:20.155061000 +03:00
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '1'
+  hints_used: 0
+  attempts_used: 1
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 20:31:16.988292000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 20:31:16.993121000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 21:47:13.730047000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 21:47:13.736930000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 21:47:17.538552000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-27 21:47:17.546026000 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:09:28.865380781 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:09:28.886603771 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:11:46.904941575 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:11:46.935924378 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:57:10.757671998 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:57:10.783776212 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:58:57.840089947 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:58:57.875297286 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:59:23.084832117 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 11:59:23.125307432 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:01:26.758288233 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:01:26.800225906 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:01:57.445929830 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:01:57.503135529 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:03:24.092825259 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:03:24.136359549 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:06:32.657657446 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:06:32.712834315 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:12:24.522438669 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:12:24.569449669 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:14:47.909063976 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:14:47.958480545 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:28:04.816707004 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:28:04.885702789 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:29:20.207038754 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:29:20.260470307 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:30:08.714442190 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:30:08.767869299 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:31:07.440071650 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:31:07.500031022 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:50:57.994598048 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:50:58.079423879 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:56:05.334997358 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 12:56:05.427679723 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:03:57.567355806 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:03:57.670408890 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:11:43.725053913 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:11:43.794840712 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:16:08.793491849 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:16:08.899664317 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:21:36.723323791 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:21:36.798671169 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:24:13.755837078 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:24:13.863846348 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:28:50.224702291 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:28:50.302691736 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:32:05.672564412 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:32:05.793380872 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '4'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:34:04.832618981 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:34:04.922382227 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:34:52.251891834 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '6'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:34:52.370873608 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '3'
+  - '5'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:35:55.631669546 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '4'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-07-28 13:35:55.724288764 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '5'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-08-03 10:59:34.297968076 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '1'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-08-03 10:59:34.393901517 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '6'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-08-05 09:32:29.319312650 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '1'
+  - '2'
+  hints_used: 0
+  attempts_used: 0
+- !ruby/object:CodebreakerOs::Game
+  player: !ruby/object:CodebreakerOs::Player
+    name: test
+    created_at: !ruby/object:DateTime 2020-08-05 09:32:29.414728900 +03:00
+    errors: []
+  difficulty:
+    :name: :easy
+    :attempts: 15
+    :hints: 2
+  secret_number: '1234'
+  hints:
+  - '2'
+  - '3'
+  hints_used: 0
+  attempts_used: 0
