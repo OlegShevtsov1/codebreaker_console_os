@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require 'i18n'
-require 'command_line_reporter'
-require 'pry'
+require 'table_print'
 require 'codebreaker_os'
+require 'i18n'
+require 'pry'
 
-require_relative 'config/constants'
-require_relative 'config/i18n_config'
-require_relative 'modules/validating'
+# require_relative 'modules/input'
 require_relative 'modules/output'
 require_relative 'classes/console'
+
+I18n.load_path << Dir[File.expand_path('config/locales') + '/*.yml']

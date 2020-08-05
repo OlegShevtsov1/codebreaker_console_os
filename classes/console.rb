@@ -1,122 +1,80 @@
 # frozen_string_literal: true
 
-class Console
-  include Validating
-  include View
-  attr_accessor :user_code
+module CodebreakerConsole
+  class Console
+    STORAGE_FILE = 'statistics.yml'
 
-  def initialize
-    @user_code = []
-  end
+    attr_reader :game, :storage_wrapper
 
-  def run
-    message(:Welcome)
-    main_menu
-  end
+    include Output
 
-  def main_menu
-    message(:MainMenu)
-    answer = user_enter
-    return menu_result(answer) if MAIN_MENU_OPTIONS.include?(answer)
-
-    message(:InvalidCommand)
-    main_menu
-  end
-
-  private
-
-  def start
-    registration
-    game_scenario
-  end
-
-  def game_scenario
-    loop do
-      return lost if game.lost?
-
-      message(:Msg)
-      process_answer_game(user_enter)
+    def initialize(storage_file = STORAGE_FILE)
+      @storage_wrapper = CodebreakerOs::StorageWrapper.new(storage_file)
     end
-  end
 
-  def process_answer_game(answer)
-    case answer
-    when /^[1-6]{4}$/
-      return won if game.won?(check_code(answer))
-    when 'hint' then request_of_hint
-    else message(:InvalidCommand)
+    def run
+      message(:welcome)
+      main_menu
     end
-  end
 
-  def menu_result(answer)
-    send(MAIN_MENU_OPTIONS[answer])
-    main_menu if answer != START_COMMAND
-  end
+    private
 
-  def request_of_hint
-    game.hints.zero? ? message(:HintsEnded) : (puts game.use_hint)
-  end
+    def main_menu
+      message(:mainmenu)
+      answer = user_enter
+      return process_answer_menu(answer) if MAIN_MENU_COMMANDS.key?(answer.to_sym)
 
-  def check_code(answer)
-    result = game.result(answer)
-    puts template(result)
-    answer.split('').map(&:to_i)
-  end
-
-  def registration
-    CodebreakerOs.run_game(input_name, input_difficulty)
-  end
-
-  def input_name
-    message(:EnterName)
-    answer = user_enter
-
-    return answer if valid_name?(answer)
-
-    message(:InvalidCommand)
-    input_name
-  end
-
-  def input_difficulty
-    message(:EnterDifficulty)
-    answer = user_enter
-    return answer if DIFFICULTIES.include?(answer.to_sym)
-
-    message(:InvalidCommand)
-    input_difficulty
-  end
-
-  def save_result?
-    message(:SaveResult)
-    user_enter == CONFIRM_COMMAND
-  end
-
-  def won
-    message(:Won)
-    game.save_result if save_result?
-    main_menu
-  end
-
-  def lost
-    message(:Loss)
-    puts game.secret_code.join
-    main_menu
-  end
-
-  def user_enter
-    enter = gets.chomp.downcase
-    if exit?(enter)
-      message(:Exit)
-      exit
+      message(:'errors.message.unexpected_command')
+      main_menu
     end
-    enter
-  end
 
-  def exit?(answer)
-    answer == EXIT_COMMAND
-  end
+    def start
+      registration
+      game_scenario
+    end
 
-  def game
-    CurrentGame.game
+    def game_scenario
+      loop do
+        return lost unless game.attempts_available?
+
+        message(:'play.enter_guess')
+        process_answer_game(user_enter)
+      end
+    end
+
+    def process_answer_game(answer)
+      guess = CodebreakerOs::Guess.new(answer)
+      if guess.valid?
+        puts compare(guess.value)
+      elsif guess.value == I18n.t(:'play.hint')
+        request_of_hint
+      else
+        message(:'errors.message.wrong_command')
+      end
+    end
+
+    def process_answer_menu(answer)
+      send(MAIN_MENU_COMMANDS[answer.to_sym])
+      main_menu if answer != I18n.t(:'play.start_command')
+    end
+
+    def request_of_hint
+      return message(:'errors.message.no_hints') unless game.hints_available?
+
+      puts "#{I18n.t(:'play.hint')}: #{game.hint}"
+    end
+
+    def compare(answer)
+      return won if game.win?(answer)
+
+      CodebreakerOs::Guess.decorate(game.compare(answer))
+    end
+
+    def registration
+      enter_name
+      describe_difficulty_levels
+      select_difficulty_level
+      @game = CodebreakerOs::Game.new(@player, @difficulty)
+    end
   end
 end

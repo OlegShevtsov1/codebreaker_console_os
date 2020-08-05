@@ -1,1 +1,4 @@
-statistic.yml
+.idea/
+.ruby-gemset
+statistics.yml
+coverage/
